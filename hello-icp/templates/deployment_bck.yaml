@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: hello-icp-2
+  labels:
+    app: hello-icp-2
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: hello-icp-2
+  template:
+    metadata:
+      labels:
+        app: hello-icp-2
+    spec:
+      containers:
+      - name: hello-icp-2
+        image: mycluster.icp:8500/tools/hello-icp
+        ports:
+        - containerPort: 80
