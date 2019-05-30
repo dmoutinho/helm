@@ -3,11 +3,11 @@ entries:
   hello-icp:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2019-05-29T17:31:47.718378912-03:00
+    created: 2019-05-30T16:12:24.196206171-03:00
     description: A Helm chart for Kubernetes
-    digest: 3f1f30caa7b99147aa3784af73d0a0eea91005b9c3b75cd0d91219c699428e4f
+    digest: 1833e95e4a32327cc68c7098a9c30f4c23abb2dd8509bf0d0c761e11f02c79cf
     name: hello-icp
     urls:
     - https://dmoutinho.github.io/helm/charts/hello-icp-0.1.0.tgz
     version: 0.1.0
-generated: 2019-05-29T17:31:47.717735888-03:00
+generated: 2019-05-30T16:12:24.195607534-03:00
